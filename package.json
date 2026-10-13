@@ -1,0 +1,43 @@
+{
+  "name": "route-scout",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Route Scout: find where your future fans live and plan the tour. Built on Qloo Taste AI, Ticketmaster Discovery and OpenRouter.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "snapshot": "tsx scripts/snapshot.mts",
+    "check:keys": "tsx scripts/check-keys.mts",
+    "sample": "tsx scripts/make-sample.mts",
+    "test:qloo": "node scripts/qloo-day1-test.mjs"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {
+    "@deck.gl/core": "9.3.11",
+    "@deck.gl/layers": "9.3.11",
+    "@deck.gl/react": "9.3.11",
+    "@fontsource/anton": "5.1.0",
+    "@fontsource/barlow": "5.1.0",
+    "d3-geo": "3.1.1",
+    "next": "15.5.26",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "topojson-client": "3.1.0",
+    "us-atlas": "3.0.1",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.0",
+    "@types/node": "20.16.11",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@types/topojson-client": "3.1.5",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3"
+  }
+}

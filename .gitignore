@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env*.local
+*.log
+.DS_Store
+.vercel
+qloo-day1-results.json
+tsconfig.tsbuildinfo
+next-env.d.ts
